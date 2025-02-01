@@ -33,9 +33,9 @@ services:
     volumes:
       - ./mlflow_data:/mlflow
     environment:
-      - AWS_ACCESS_KEY_ID=AKIAWPPO6PULSED4ZTW3
-      - AWS_SECRET_ACCESS_KEY=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
-      - AWS_DEFAULT_REGION=ap-southeast-1
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
+      - AWS_DEFAULT_REGION=
     networks:
       - mlflow-network
 
